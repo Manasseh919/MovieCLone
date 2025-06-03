@@ -13,7 +13,7 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={myTheme}>
-      <Stack/>
+      <Stack screenOptions={{headerShown: false}}/>
     </ThemeProvider>
   )
 }
