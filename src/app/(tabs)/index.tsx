@@ -9,7 +9,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.headerContainer}>
         <View style={styles.headerTitleContainer}>
-          <Text style={styles.headerTitle}>For Lukas</Text>
+          <Text style={styles.headerTitle}>For Mann</Text>
           <Feather name="search" size={22} color="white" />
         </View>
         <View style={{ flexDirection: 'row', gap: 5 }}>
